@@ -2,7 +2,7 @@
 
 
 body {
-  /*background-color: ;*/
+  background-color: #fff;
   display: inline-block;
 }
 
@@ -13,11 +13,14 @@ h1 {
 h2{
   text-align: center;
 }
-.meet-us-container, .ask-us-container{
-  text-align: center;
-  margin: 0 auto;
+.b-top-section{
+  background-color: #523080;
+  color: white;
+  font: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
-.call-us-container, .email-us-container{
+.meet-us-container, .call-email-us-container, .ask-us-container{
+  text-align: center;
+  margin: 50px;
   float: left;
-  margin: 10px;
 }
