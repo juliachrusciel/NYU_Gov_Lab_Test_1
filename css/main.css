@@ -21,6 +21,19 @@ h2{
 }
 .meet-us-container, .call-email-us-container, .ask-us-container{
   text-align: center;
-  margin: 50px;
+  margin: 0 auto;
   float: left;
+  color: white;
+}
+.meet-us-container{
+  background-color: #008ab3;
+  width: 40%;
+}
+/*.call-email-us-container{
+  background-color: #ee5b43;
+  width: 20%
+}*/
+.ask-us-container{
+  background-color: #008895;
+  width: 40%;
 }
