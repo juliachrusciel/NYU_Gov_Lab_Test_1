@@ -1,3 +1,6 @@
+
+
+
 body {
   /*background-color: ;*/
   display: inline-block;
@@ -6,4 +9,15 @@ body {
 h1 {
   text-align: center;
   color: blue;
+}
+h2{
+  text-align: center;
+}
+.meet-us-container, .ask-us-container{
+  text-align: center;
+  margin: 0 auto;
+}
+.call-us-container, .email-us-container{
+  float: left;
+  margin: 10px;
 }
