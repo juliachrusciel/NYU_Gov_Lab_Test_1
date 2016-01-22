@@ -62,7 +62,7 @@ iframe{
   background-color: #008895;
   width: 40%;
 }
-#directions-header{
+/*#directions-header{
   text-align: center;
   margin: 0 auto;
   padding: 2% 0 0 0;
@@ -70,7 +70,21 @@ iframe{
 #directions-body{
   padding: 2% 5%;
 
-}
+}*/
 #top-subheader{
   padding: 0% 15%;
+}
+.b-divider{
+  background-color: #333333;
+  position: static;
+  text-align: center;
+  width: 100%;
+  font-family: 'Fira sans', sans-serif;
+  margin: 0 auto;
+}
+#b-divider-heading{
+  color: white;
+}
+#b-divider-body {
+  color: white;
 }
