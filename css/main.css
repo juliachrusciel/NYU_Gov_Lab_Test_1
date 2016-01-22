@@ -21,9 +21,8 @@ h2{
   font-style: thin;
   padding: 35px;
 }
-.meet-us-container, .call-email-us-container, .ask-us-container{
-  text-align: center;
-  margin: 0 auto;
+.meet-us-container, .directions-container{
+
   float: left;
   color: white;
   font-family: 'Fira sans', sans-serif;
@@ -31,11 +30,28 @@ h2{
 }
 .meet-us-container{
   background-color: #ee5b43;
-  width: 50%;
+  width: 60%;
 }
-.ask-us-container{
+#meet-us-header{
+  text-align: center;
+  margin: 0 auto;
+}
+#meet-us-address{
+  text-align: center;
+  margin: 0 auto;
+  padding: 1% 60% 0 0;
+}
+.directions-container{
   background-color: #008895;
-  width: 50%;
+  width: 40%;
+}
+#directions-header{
+  text-align: center;
+  margin: 0 auto;
+}
+#directions-body{
+  padding: 2% 5%;
+
 }
 #top-subheader{
   padding: 0% 15%;
