@@ -20,9 +20,16 @@ h2{
   font-family: 'Fira sans', sans-serif;
   font-style: thin;
   padding: 35px;
+  width: 100%;
+}
+.b-page-section{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+
 }
 .meet-us-container, .directions-container{
-
   float: left;
   color: white;
   font-family: 'Fira sans', sans-serif;
@@ -30,17 +37,30 @@ h2{
 }
 .meet-us-container{
   background-color: #ee5b43;
-  width: 60%;
+  width: 100%;
 }
 #meet-us-header{
   text-align: center;
   margin: 0 auto;
+  padding: 2% 0 0 0;
 }
 #meet-us-address{
   text-align: center;
   margin: 0 auto;
   padding: 1% 60% 0 0;
 }
+iframe{
+  display: inline-block;
+  width: 600px;
+  height: 450px;
+  frameborder: 0;
+  border: 0;
+
+
+
+
+}
+
 .directions-container{
   background-color: #008895;
   width: 40%;
@@ -48,6 +68,7 @@ h2{
 #directions-header{
   text-align: center;
   margin: 0 auto;
+  padding: 2% 0 0 0;
 }
 #directions-body{
   padding: 2% 5%;
