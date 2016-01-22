@@ -12,6 +12,7 @@ h1 {
 }
 h2{
   text-align: center;
+  font-size: 50px;
 }
 .b-top-section{
   background-color: #523080;
@@ -25,6 +26,8 @@ h2{
   margin: 0 auto;
   float: left;
   color: white;
+  font-family: 'Fira sans', sans-serif;
+  font-style: thin;
 }
 .meet-us-container{
   background-color: #ee5b43;
@@ -33,4 +36,7 @@ h2{
 .ask-us-container{
   background-color: #008895;
   width: 50%;
+}
+#top-subheader{
+  padding: 0% 15%;
 }
