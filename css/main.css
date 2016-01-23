@@ -1,5 +1,5 @@
-body{
-  display: inline;
+*{
+  overflow: auto;
 }
 div{
   float: inherit;
@@ -63,8 +63,7 @@ iframe{
   text-align: center;
   width: 100%;
   font-family: 'Fira sans', sans-serif;
-  margin: 0 auto;
-  overflow: scroll;
+  margin: 10px auto;
 }
 #b-divider-heading{
   color: white;
@@ -76,7 +75,10 @@ iframe{
   position: static;
   text-align: center;
   font-family: 'Fira sans', sans-serif;
-  overflow: scroll;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+
 }
 .ask-us-container{
   background-color: #008895;
@@ -84,11 +86,21 @@ iframe{
   height: 100%;
   color: white;
 }
-.form-info-set-1{
+.input{
   text-align: center;
   frameborder: 0;
   border: 0;
 }
 textarea{
+  text-align: center;
+}
+button{
+  background-color: #ee5b43;
+  width: 120px;
+  height: 65px;
+  color: white;
+  border: 0;
+}
+.button{
   text-align: center;
 }
